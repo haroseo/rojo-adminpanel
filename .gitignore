@@ -1,8 +1,16 @@
-# Project place file
-/project-Ro.rbxlx
+# Project place files
+*.rbxl
+*.rbxlx
 
 # Roblox Studio lock files
-/*.rbxlx.lock
-/*.rbxl.lock
+*.rbxl.lock
+*.rbxlx.lock
 
+# Rojo / Tooling
 sourcemap.json
+*.project.json.*
+.rojo/
+
+# Packages (if using Wally or others)
+Packages/_Index/
+test-ez/
